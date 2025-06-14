@@ -38,7 +38,9 @@ SELECT * FROM employees;
 | 5      | Eva      | 102            | 65000.00 |
 
 ---
+### 1. INNER JOIN
 
+> Get the list of employees along with their department names (only if they belong to a department.
 ## Query: Employees with Departments
 ```sql
 SELECT 
@@ -60,4 +62,11 @@ ON
 | 2      | Bob      | Finance         |
 | 5      | Eva      | Finance         |
 
-<!-- This will retrieve emp_id,emp_name and department_name from the respective tables according to the aliases given -->
+This will retrieve emp_id,emp_name and department_name from the respective tables according to the aliases given .
+___
+
+### 2. LEFT JOIN
+
+> Get all employees and their department names (even if they don't belong to any department).
+
+
